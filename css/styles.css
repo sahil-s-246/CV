@@ -1,0 +1,180 @@
+body {
+
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    color : #40514E;
+}
+h1 {
+    font-size: 5.625rem;
+    margin: 100px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color : #66BFBF;
+    font-weight: inherit;
+   /* line-height: 2*/
+
+}
+
+h2 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    /*text-decoration: underline dotted #66BFBF;*/
+}
+h3 {
+    color:#11999E;
+}
+
+p {
+    line-height: 2;
+}
+.intro {
+    margin: 40px auto 60px;
+
+    width: 30%;
+
+
+}
+
+.top {
+
+   /*background-color : #A5F1E9;*/
+    background-color: #c0fae8;
+    padding-top: 100px;
+    position: relative;
+
+
+    /*
+    background: hsla(209, 78%, 49%, 1);
+
+
+background: linear-gradient(90deg, hsla(209, 78%, 49%, 1) 0%, hsla(170, 100%, 68%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(209, 78%, 49%, 1) 0%, hsla(170, 100%, 68%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(209, 78%, 49%, 1) 0%, hsla(170, 100%, 68%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1C81DF", endColorstr="#5CFFE4", GradientType=1 );
+    */
+
+}
+
+.middle {
+    margin : 50px auto;
+
+
+
+
+}
+
+
+.bottom {
+    background-color: #66BFBF;
+
+  padding: 50px 0 20px;
+
+
+}
+
+
+.top-cloud {
+    position: absolute;
+    right:400px;
+    top:50px
+
+}
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left:400px
+
+}
+.footer-link {
+    color: #118488;
+    text-decoration: none;
+    margin:10px 20px
+}
+.footer-link:hover {
+    color : azure;
+}
+
+
+.game {
+    height: 150px;
+    width:150px;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.computer {
+    height: 150px;
+    width:150px;
+    float: left;
+    margin-right: 30px;
+/* skill-desc {clear:left} it can be considered anti-float
+ */
+
+}
+.skill-row {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+
+    padding-bottom: 50px;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+
+}
+
+hr {
+    border-style : none ;
+    border-top-style : dotted;
+    border-color : #eeebeb;
+
+    border-width : 10px;
+    width : 5%;
+    padding-bottom: 50px;
+}
+.copy{
+    /*color : snow;*/
+    color: azure;
+    padding: 20px 0 0;
+    font-size: 0.75rem;
+
+}
+.btn {
+    margin : 100px auto;
+  background: #2effee;
+  background-image: -webkit-linear-gradient(top, #2effee, #2a80b5);
+  background-image: -moz-linear-gradient(top, #2effee, #2a80b5);
+  background-image: -ms-linear-gradient(top, #2effee, #2a80b5);
+  background-image: -o-linear-gradient(top, #2effee, #2a80b5);
+  background-image: linear-gradient(to bottom, #2effee, #2a80b5);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: 'Noto Serif', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #70ebac;
+  background-image: -webkit-linear-gradient(top, #70ebac, #1fadab);
+  background-image: -moz-linear-gradient(top, #70ebac, #1fadab);
+  background-image: -ms-linear-gradient(top, #70ebac, #1fadab);
+  background-image: -o-linear-gradient(top, #70ebac, #1fadab);
+  background-image: linear-gradient(to bottom, #70ebac, #1fadab);
+  text-decoration: none;
+}
+#outro {
+    margin: 40px auto 60px;
+    width: 40%;
+
+}
